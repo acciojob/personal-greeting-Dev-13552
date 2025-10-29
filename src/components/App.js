@@ -10,7 +10,7 @@ const App = () => {
       setIsEmpty(false)
     }else{
       setIsEmpty(true)
-      setText(`Hello ${value}`)
+      setText(`Hello ${value}!`)
     }
   }
   return (
