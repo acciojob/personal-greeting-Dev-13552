@@ -1,17 +1,16 @@
-
 import React from "react";
 import './../styles/App.css';
 
 const App = () => {
   const [isEmpty, setIsEmpty] = useState(true)
-  const [text, setText] useState("")
+  const [text, setText] =  useState("")
   function changeHandler(e){
     const value = e.target.value
     if(!value){
       setIsEmpty(false)
     }else{
       setIsEmpty(true)
-      text ="Hello" + e.target.value
+      text ="Hello, " + e.target.value
     }
   }
   return (
