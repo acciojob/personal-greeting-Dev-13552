@@ -17,7 +17,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
       <label>Enter your name: </label>
-      <input type = "text" onChange={()=>{changeHandler(e)}}>
+      <input type = "text" onChange={()=>{changeHandler(e)}}/>
       <p>
       {!isEmpty && <p>{text}</p>}
       </p>
