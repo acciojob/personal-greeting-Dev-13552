@@ -7,9 +7,9 @@ const App = () => {
   function changeHandler(e){
     const value = e.target.value
     if(!value){
-      setIsEmpty(false)
-    }else{
       setIsEmpty(true)
+    }else{
+      setIsEmpty(false)
       setText(`Hello ${value}!`)
     }
   }
