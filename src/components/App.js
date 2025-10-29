@@ -10,7 +10,7 @@ const App = () => {
       setIsEmpty(false)
     }else{
       setIsEmpty(true)
-      text ="Hello, " + e.target.value
+      setText(`Hello ${value}`)
     }
   }
   return (
